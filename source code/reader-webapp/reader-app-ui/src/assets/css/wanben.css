@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,input,select,textarea,td{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑";
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+a{
+	text-decoration:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border:0;
+	display: block;
+}
+/*header*/
+.wb-header{
+	width:100%;
+	height:.47rem;
+	border-bottom: 1px #fcfcfd solid;
+	display:-webkit-flex;
+	-webkit-align-items:center;
+	position:fixed;
+	z-index: 111;
+	background:#fff;
+}
+.wb-header a{
+	margin-left: .21rem;
+}
+.wb-header-1{
+	display:-webkit-flex;
+	flex:1;
+}
+.wb-header-1 h1{
+	flex:1;
+	font-size: 12px;
+	color:#12161a;
+	display:-webkit-flex;
+	-webkit-align-items:center;
+	height:.47rem;
+	-webkit-justify-content:center;
+}
+.wb-header-1 h1:first-child{
+	margin-left:1rem;
+}
+.wb-header-1 h1:last-child{
+	margin-right:1rem;
+}
+.wb-header a img{
+	width:.14rem;
+	height:.20rem;
+	
+}
+.wb-header-1 .xz5 {
+    color: #3399ff;
+    font-size: 16px;
+    background: url(../imgs/xhx.jpg) no-repeat center 34px;
+    background-size: .12rem .02rem;
+}
+/*section*/
+.wb-section{
+	-webkit-flex:1;
+	overflow-y: auto;
+	margin-top: .47rem;
+}
+/*banner*/
+.swiper-container{
+	width:100%;
+	height:1.13rem;
+}
+.swiper-container img{
+	width:3.28rem;
+	height:.85rem;
+	margin:.13rem auto;
+
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom:.01rem;
+	left:.3rem;
+}
+.swiper-pagination{
+	text-align: left;
+}
+.swiper-pagination-bullet{
+	width:.04rem;
+	height:.04rem;
+	background-color: #fff;
+	opacity: .5;
+}
+.swiper-pagination-bullet-active {
+	width:.1rem;
+	height:.04rem;
+	opacity:1;
+	border-radius: 5px;
+	background-color: #fff;
+}
+/*全部*/
+.wb-qubu-1{
+	width:100%;
+	height:.54rem;
+	display:-webkit-flex;
+	-webkit-justify-content:space-between;
+	-webkit-align-items:center;
+}
+.wb-qubu-3 span{
+	font-size:14px;
+	color:#a1aab3;
+}
+.wb-qubu-2{
+	display:-webkit-flex;
+	margin-left: .18rem;
+	-webkit-align-items:center;
+}
+.wb-qubu-3{
+	display:-webkit-flex;
+	-webkit-align-items:center;
+}
+.wb-qubu-1 .wb-qubu-2 img{
+	width:.34rem;
+	height:.28rem;
+	margin-right: 0;
+}
+.wb-qubu-3 img{
+	width:.07rem;
+	height:.1rem;
+	margin-left: .07rem;
+	margin-right: .26rem;
+}
+.wb-qubu-2 h5{
+	font-size: .14rem;
+	color:#12161a;
+	margin-left: .07rem;
+}
+/*书本*/
+.wb-title{
+	width:100%;
+	height:.5rem;
+	display:-webkit-flex;
+	-webkit-justify-content:space-between;
+	-webkit-align-items:center;
+}
+.wb-title h1{
+	font-size: .20rem;
+	color:#12161a;
+	margin-left: .24rem;
+}
+.wb-title a{
+	display:-webkit-flex;
+	-webkit-align-items:center;
+}
+.wb-title-right span{
+	font-size: 12px;
+	color:#d2d6db;
+	display:block;
+	margin-right: .07rem;
+}
+.wb-title-right img{
+	width:.07rem;
+	height:.1rem;
+	margin-right: .28rem;
+}
+.wb-equs{
+	height:2.26rem;
+	display: -webkit-flex;
+	justify-content: space-around;
+}
+.wb-equs a:first-child{
+	margin-left:.1rem;
+}
+.wb-equs a:last-child{
+	margin-right:.1rem;
+}
+.wb-equs a span{
+	display: block;
+}
+.wb-equs a span:nth-child(2){
+	font-size: 14px;
+	color:#12161a;
+	width:.73rem;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow:hidden;
+	margin-top: .07rem;
+	margin-bottom: .07rem;
+}
+.wb-equs a span:nth-child(3){
+	font-size: 14px;
+	color:#a1aab3;
+	text-decoration: line-through;
+	width:.73rem;
+}
+.wb-equs a span:last-child{
+	font-size: 12px;
+	color:#ff6a6a;
+	margin-top:.07rem;
+}
+.wb-equs a img{
+	width: .96rem;
+	height:1.28rem;
+}
+.wb-section_one{
+	display:-webkit-flex;
+	margin-left: .2rem;
+	margin-right:.2rem;
+	margin-bottom: .24rem;
+}
+.wb-sec_1{
+	width:100%;
+	height:.99rem;
+	margin-left: .13rem;
+	margin-right: .17rem;
+}
+.wb-section_one img{
+	width: .73rem;
+	height:.99rem;
+}
+.wb-sec_1 span{
+	display:block;
+}
+.wb-sec_1 span:nth-child(1){
+	font-size:14px;
+	margin-top: .03rem;
+	color:#12161a;
+	margin-bottom:.1rem;
+	line-height:.14rem; 
+}
+.wb-sec_1 span:nth-child(2){
+	font-size:12px;
+	color:#a1aab3;
+	line-height: .21rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+.wb-section_1{
+	display:-webkit-flex;
+	margin-top:.14rem; 
+	-webkit-justify-content:space-between;
+}
+.wb-sec_1 .wb-section_1 span{
+	font-size:12px;
+	color:#a1aab3;
+	line-height: .21rem;
+}

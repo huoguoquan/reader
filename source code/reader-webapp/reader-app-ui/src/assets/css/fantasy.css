@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ol,ul,dl,dd,p,input,select,textarea,td{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family:"微软雅黑";
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+a{
+	text-decoration:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border:0;
+	display: block;
+}
+/*header*/
+.ft-header{
+	width:100%;
+	height:.83rem;
+	border-bottom: 1px #f5f7fa solid;
+	position:fixed;
+	background:#fff;
+}
+.ft-header-one{
+	width:100%;
+	height:.41rem;
+	display:-webkit-flex;
+	-webkit-align-items:center;
+}
+.ft-header-one a{
+	margin-left: .21rem;
+}
+.ft-header-1 h1{
+	font-size: .2rem;
+	color:#12161a;
+	margin-left: 1.3rem;
+}
+.ft-header a img{
+	width:.14rem;
+	height:.20rem;
+
+}
+.ft-header-two{
+	height:.42rem;
+	display:-webkit-flex;
+	-webkit-align-items:center;
+}
+.ft-header-two a{
+	color:#a4adb6;
+	font-size: 14px;
+	flex:1;
+	text-align: center;
+}
+.ft-header-two .ft-header-2{
+	color:#3399ff;
+}
+/*section*/
+.ft-section{
+	margin-top: .93rem;
+}
+
+.ft-section_one{
+	display:-webkit-flex;
+	margin-left: .21rem;
+	margin-bottom: .24rem;
+	margin-top: .1rem;
+}
+.ft-sec-one{
+	width:100%;
+	height:.99rem;
+	margin-left: .13rem;
+	margin-right: .24rem;
+
+}
+.ft-section_one img{
+	height:.99rem;
+}
+.ft-sec-one span{
+	display:block;
+}
+.ft-sec-one span:nth-child(1){
+	font-size:16px;
+	color:#12161a;
+	margin-bottom:.13rem;
+	line-height:.14rem;
+}
+.ft-sec-one span:nth-child(2){
+	font-size:12px;
+	color:#c4cacf;
+	line-height: .21rem;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+.ft-section_1{
+	display:-webkit-flex;
+	margin-top:.14rem;
+	-webkit-justify-content:space-between;
+}
+.ft-section_1 span:nth-child(1){
+	font-size:12px;
+	color:#c4cacf;
+	line-height: .21rem;
+}
+.ft-sec-one .ft-section_2 span{
+	font-size:12px;
+	color:#a67962;
+}
+.ft-section_2{
+	display:-webkit-flex;
+}

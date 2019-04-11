@@ -1,0 +1,68 @@
+{
+
+  "user":{},
+  "books":[
+    {
+      "title":"斗破苍穹",
+      "type":"玄幻",
+      "imges":"//bookcover.yuewen.com/qdbimg/349573/1209977/180",
+      "brief":"这里是属于斗气的世界，没有花俏艳丽的魔法，有的，仅仅是繁衍到巅峰的斗气！",
+      "pic":"1111书币",
+      "author":"天蚕土豆",
+      "banner":"../imgs/banner-1.jpg"
+    },
+    {
+      "title":"神话烘炉 ",
+      "type":" 仙侠",
+      "imges":"//bookcover.yuewen.com/qdbimg/349573/1012671036/180",
+      "brief":"修仙觅长生，热血任逍遥，踏莲曳波涤剑骨，凭虚御风塑圣魂！",
+      "pic":"1111书币",
+      "author":"雪满林中",
+      "banner":"banner-1.jpg"
+    },
+    {
+      "title":"黑科技研发中心",
+      "type":" 都市",
+      "imges":"//bookcover.yuewen.com/qdbimg/349573/1010368052/180",
+      "brief":"一个位于深山老林中的研发中心，却汇集了全球所有人的目光,只因这里不时流出的一项成果，就引动着全球的神经。",
+      "pic":"1111书币",
+      "author":"凡核桃 ",
+      "banner":"../imgs/banner-1.jpg"
+    }
+  ],
+  "genre":[
+            {
+                "type":"玄幻",
+              "amount":"709850册",
+              "banner":"../imgs/banner-1.jpg"
+            },
+            {
+              "type":"都市",
+              "amount":"379284册"
+            },
+            {
+              "type":"仙侠",
+              "amount":"241415册"
+            },
+            {
+              "type":"武侠",
+              "amount":"48598册"
+            },
+            {
+              "type":"科幻",
+              "amount":"163125册"
+            },
+            {
+              "type":"奇幻",
+              "amount":"164991册"
+            },
+            {
+              "type":"历史",
+              "amount":"83959册"
+            },
+            {
+              "type":"军事",
+              "amount":"70431册"
+            }
+  ]
+}
